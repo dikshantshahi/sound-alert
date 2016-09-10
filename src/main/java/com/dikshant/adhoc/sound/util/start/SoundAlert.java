@@ -2,18 +2,12 @@ package com.dikshant.adhoc.sound.util.start;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
-import sun.audio.AudioPlayer;
-import sun.audio.AudioStream;
 
 /**
  ******************************************************************************
@@ -21,8 +15,10 @@ import sun.audio.AudioStream;
  * Program Name: SoundAlert.java
  * Author: DikshantS
  * Date Created: Jul 20, 2016
- * Copyright: Copyright (c) 2016 The Digital Group. All Rights Reserved.
- * Desc: <Add description here>
+ * Copyright: Copyright (c) 2016 Dikshant Shahi. All Rights Reserved.
+ * Desc: A simple Java class to alert with beep sound.
+ *       Ideal for scenario when you want to be informed when you are around
+ *      your machine but nor actively using it.
  ******************************************************************************
  * Mod Log
  * ---------
